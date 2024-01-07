@@ -1,9 +1,12 @@
 section{
     margin: 50px 100px;
+    align-items: center;
 }
 /* Banner section */
 .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('resources/Banner Image.png');
+    width: 1320px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -47,4 +50,52 @@ section{
     font-size: 48px;
     font-weight: 700;
     margin-top: 10px;
+}
+
+/* Welcome party section*/
+.welcome{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.welcome-h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900; 
+    padding: 80px 0px 0px 126px;
+    margin-bottom: 0px; 
+}
+.welcome-des{
+    color: rgba(255, 255, 255, 0.763);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+    margin-top: 30px;
+}
+.welcome-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 142px 158px;
+    background: none;
+    border: none;
+    margin-top: 70px;
+}
+.welcome-btn:hover{
+    color: yellow;
+}
+#welcome-pic{
+   padding-left: 170px;
+    height: 465px;
+    width: 320px;
 }
