@@ -1,6 +1,6 @@
 
 section{
-    margin: 50px 100px;
+    margin: 50px 100px 80px 100px;
 }
 /* Banner section */
 .banner{
@@ -32,6 +32,7 @@ section{
 .deals{
     text-align: center;
     font-family: Inter;
+    width: 1320px;
 }
 .deal-h1{
     color: #F00;
@@ -266,4 +267,90 @@ section{
     border-bottom: 4px solid black;
 }
 
+/* Subscribe section */
+.subs{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 610px;
+}
+.sub-info{
+    padding-top: 90px;
+}
+.sub-h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+.input-mail{
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    padding: 24px 56px;
+    width: 600px;
+    border: none;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+}
+.sub-btn{
+    border-radius: 0px 50px 50px 0px;
+    background-color: red;
+    color: #FFF;
+    padding: 24px 56px;
+    width: 200px;
+    border: none;
+    margin-left: -5px;
+}
 
+/* Footer section */
+footer{
+    width: 1520px;
+    height: 700px;
+    background: #070211;
+}
+.contact{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 40px;
+}
+.container{
+    display: flex;
+    gap: 600px;
+    max-width: 1200px;
+}
+.new{
+    color: rgba(255, 255, 255, 0.15);
+}
+.call{
+    display: flex;
+    gap: 10px;
+}
+.web{
+    display: flex;
+    gap: 10px;
+}
+.logo{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.new2{
+    max-width: 1320px;
+    color: rgba(255, 255, 255, 0.15);
+}
+.container2{
+    display: flex;
+    gap: 800px;
+    max-width: 1200px;
+}
