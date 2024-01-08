@@ -1,6 +1,6 @@
 
 section{
-    margin: 50px 100px 80px 100px;
+    margin: 50px 100px 90px 100px;
 }
 /* Banner section */
 .banner{
@@ -91,9 +91,6 @@ section{
     background: none;
     border: none;
     margin-top: 70px;
-}
-.welcome-btn:hover{
-    color: yellow;
 }
 #welcome-pic{
     padding-top: 70px;
@@ -190,6 +187,7 @@ section{
 }
 
 /* holiday sales section */
+/*
 .sale{
     text-align: center;
     height: 600px;
@@ -233,7 +231,7 @@ section{
     width: 430px;
     text-align: right;
 }
-
+*/
 /* Portfolio section */
 .portfolio-h3{
     color: #F00;
@@ -325,7 +323,7 @@ footer{
 }
 .container{
     display: flex;
-    gap: 600px;
+    gap: 580px;
     max-width: 1200px;
 }
 .new{
@@ -342,7 +340,7 @@ footer{
 .logo{
     
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
 }
 .new2{
@@ -351,6 +349,6 @@ footer{
 }
 .container2{
     display: flex;
-    gap: 800px;
+    gap: 750px;
     max-width: 1200px;
 }
